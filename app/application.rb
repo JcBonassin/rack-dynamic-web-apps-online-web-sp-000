@@ -3,7 +3,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-    num_1 = Kernel.rand(3..20)
+    num_1 = Kernel.rand(4..20)
     num_2 = Kernel.rand(3..20)
     num_3 = Kernel.rand(3..20)
 
